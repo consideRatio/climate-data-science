@@ -1,0 +1,8 @@
+# This file is meant to help git ignore all files except this one
+# It is a technical workaround to allow the data directory to be
+# added to git's version control, that only considers non-empty
+# directories.
+
+*
+!.gitignore
+
